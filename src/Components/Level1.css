@@ -1,0 +1,51 @@
+
+
+.NumberDials.winning {
+  background: rgb(204,179,255);
+}
+
+.NumberDials.losing {
+  background-color: rgb(0,85,128);
+}
+
+.NumberDials {
+  max-width: 70%;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.NumberDials .directions {
+  text-align: center;
+}
+
+.NumberDials .hint {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.NumberDials .numberPlates {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NumberDials .numberPlates .numberPlate {
+  display: flex;
+  flex-direction: column;
+}
+
+.NumberDials .numberPlates .numberPlate button {
+  font-size: 2em;
+  outline: none;
+  border: none;
+}
+
+.NumberDials .numberPlates .numberPlate button:hover {
+  color: white;
+  background-color: black;
+}
+
+.NumberDials .numberPlates .numberPlate .digit {
+  font-size: 4em;
+  text-align: center;
+}
